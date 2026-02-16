@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Politique de Confidentialité — Polyglot Subtitle Translator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+            background: #0f0e1a;
+            color: #d8d6e8;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 28px;
+            background: linear-gradient(90deg, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #a78bfa;
+            margin: 28px 0 12px;
+        }
+
+        p,
+        li {
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 24px;
+            margin-bottom: 12px;
+        }
+
+        a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.25);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Politique de Confidentialité</h1>
+        <p class="subtitle">Polyglot Subtitle Translator — Extension Chrome</p>
+
+        <div class="card">
+            <h2>1. Introduction</h2>
+            <p>
+                Polyglot Subtitle Translator (ci-après « l'Extension ») est une extension de navigateur
+                Chrome qui traduit les sous-titres de vidéos en temps réel. Cette politique de
+                confidentialité décrit comment l'Extension traite vos données.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>2. Données collectées</h2>
+            <p><strong>Aucune donnée personnelle n'est collectée.</strong></p>
+            <p>L'Extension ne collecte, ne stocke et ne transmet aucune information personnelle identifiable, notamment
+                :</p>
+            <ul>
+                <li>Aucun nom, adresse e-mail ou identifiant</li>
+                <li>Aucun historique de navigation</li>
+                <li>Aucune donnée de géolocalisation</li>
+                <li>Aucun cookie de suivi</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. Données stockées localement</h2>
+            <p>L'Extension utilise <code>chrome.storage.sync</code> pour enregistrer uniquement vos préférences :</p>
+            <ul>
+                <li>Liste des sites configurés (nom de domaine, langues source et cible)</li>
+                <li>Préférences d'affichage (taille des sous-titres, mode de traduction)</li>
+                <li>Langues par défaut</li>
+            </ul>
+            <p>Ces données sont stockées localement sur votre navigateur et synchronisées via votre compte Google Chrome
+                si la synchronisation est activée. Elles ne sont accessibles que par vous.</p>
+        </div>
+
+        <div class="card">
+            <h2>4. Services tiers</h2>
+            <p>L'Extension utilise l'API <strong>MyMemory Translation</strong> pour effectuer les traductions. Lors
+                d'une traduction :</p>
+            <ul>
+                <li>Le texte des sous-titres est envoyé à l'API MyMemory pour traduction</li>
+                <li>Aucune information personnelle n'est transmise avec la requête</li>
+                <li>Consultez la <a href="https://mymemory.translated.net/doc/usagelimits.php" target="_blank">politique
+                        de MyMemory</a> pour plus de détails</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>5. Permission « Tous les sites »</h2>
+            <p>
+                L'Extension demande la permission d'accéder à tous les sites web (<code>&lt;all_urls&gt;</code>)
+                car elle doit pouvoir détecter et traduire les sous-titres sur n'importe quel site de vidéo
+                que l'utilisateur configure. L'Extension n'est active que sur les sites explicitement ajoutés
+                par l'utilisateur dans ses paramètres.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>6. Modifications</h2>
+            <p>
+                Cette politique peut être mise à jour occasionnellement. Toute modification sera publiée
+                sur cette page avec la date de mise à jour.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>7. Contact</h2>
+            <p>
+                Pour toute question concernant cette politique de confidentialité, contactez-nous via :
+                <br><a href="https://www.andraseduardgabriel.com/">andraseduardgabriel.com</a>
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>Dernière mise à jour : 15 février 2026</p>
+            <p>© 2026 Andras Eduard Gabriel — Tous droits réservés</p>
+        </div>
+    </div>
+</body>
+
+</html>
